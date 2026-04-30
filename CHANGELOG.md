@@ -1,3 +1,4 @@
+## v3.135.7
 * Fixed `transport/ResourceExhausted` errors with description "trying to send message larger than max" or "received message larger than max" to be treated as non-retryable, so callers get an immediate error instead of repeated retries that cannot succeed
 
 ## v3.135.6
